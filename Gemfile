@@ -12,12 +12,12 @@ end
 group :test do
   gem 'commonmarker', '~> 0.14', require: false
   gem 'email_reply_parser', '~> 0.5', require: false
-  gem 'gemoji', '~> 2.0', require: false
+  gem 'gemoji', '~> 3.0', require: false
   gem 'minitest'
   gem 'RedCloth',           '~> 4.2.9', require: false
-  gem 'rinku',              '~> 1.7',   require: false
-  gem 'sanitize',           '~> 4.6.4', require: false # CVE-2018-3740
+  gem 'rinku',              '~> 2.0.4',   require: false
+  gem 'sanitize',           '~> 4.6.6', require: false # CVE-2018-3740
 
   gem 'escape_utils', '~> 1.0', require: false
-  gem 'rouge', '~> 3.1', require: false
+  gem 'rouge', '~> 3.2.1', require: false
 end
