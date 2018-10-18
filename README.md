@@ -362,3 +362,8 @@ This section is for gem maintainers to cut a new version of the gem.
 * push branch and create a new pull request
 * after tests are green, merge to master
 * on the master branch, run `script/release`
+
+### Dependency Notes
+
+* **commonmarker** Updating to version 0.18.1 causes 3 test failures.
+
